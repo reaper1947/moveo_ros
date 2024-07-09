@@ -1,5 +1,10 @@
 # moveo_ros
 BNC3D Moveo ROS with manual
+
+Original moveo ROS from https://github.com/jesseweisberg/moveo_ros?tab=readme-ov-file
+
+Original CAD and firmware from https://github.com/BCN3D/BCN3D-Moveo
+
 This project is designed to control a BCN3D Moveo robotic arm using ROS (Robot Operating System) and MoveIt for motion planning. The project includes custom scripts for forward kinematics and predefined movements for pick and place operations.
 
 ![image](https://github.com/reaper1947/moveo_ros/assets/153167916/80f1afe9-227f-4ee9-bfcb-4040c29500b9)
@@ -12,6 +17,7 @@ This project is designed to control a BCN3D Moveo robotic arm using ROS (Robot O
 - [Known Issues](#known-issues)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
+- [Future](#future)
 
 # Installation
 Build the Workspace
@@ -111,8 +117,14 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ![image](https://github.com/reaper1947/moveo_ros/assets/153167916/0737fff3-5d8c-4ab7-93af-9878418b8ea1)
 
 
-### Clone the Repository
-```bash
+# Clone the Repository
+```
 git clone https://github.com/reaper1947/moveo_ros.git
 cd moveo_ros
+```
+
 ![image](https://github.com/reaper1947/moveo_ros/assets/153167916/d577cbeb-763a-4ba6-a9c9-0c0fbd9e5291)
+
+
+# Future
+Now I'm developing ROS2 with functions that are more suitable for use in real environments, such as on AMR robots.
